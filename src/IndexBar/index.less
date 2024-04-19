@@ -1,0 +1,38 @@
+.index-bar-react {
+    position: relative;
+    overflow-y: scroll;
+    height: 100%;
+
+    .ib-index-select {
+        position: fixed;
+        right: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 16px;
+
+        .ib-index-select-item {
+            width: 14px;
+            height: 14px;
+            font-family: 'PingFang SC';
+            font-size: 14px;
+            color: #464e64;
+            margin-bottom: 8px;
+            text-align: center;
+            line-height: 14px;
+            cursor: pointer;
+        }
+
+        .ib-index-select-item-active {
+            background-color: #111e36;
+            border-radius: 14px;
+            color: #fff;
+        }
+    }
+}
+
+.index-bar-react::-webkit-scrollbar {
+    display: none; /* 隐藏 Chrome 和 Safari 滚动条 */
+}

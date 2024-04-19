@@ -19,11 +19,6 @@ export default () => {
               {brandList[index]?.map((item: any) => {
                 return (
                   <div key={item.brandId} className="brandItem">
-                    <img
-                      alt={item.brandName}
-                      src={item.brandImg}
-                      className="brandPic"
-                    />
                     {item.brandName}
                   </div>
                 );

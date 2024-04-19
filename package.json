@@ -1,6 +1,6 @@
 {
   "name": "indexbar-react",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "一个基于React的IndexBar组件；用于数据的序列号展示，常见应用为右侧索引栏、通讯录字母索引等",
   "keywords": [
     "indexbar",

@@ -1,9 +1,9 @@
 # IndexBar-React
 
 [![NPM version](https://img.shields.io/npm/v/indexbar-react.svg?style=flat)](https://npmjs.org/package/indexbar-react)
-[![NPM downloads](https://img.shields.io/badge/downloads-17.9%20kB-brightgreen)](https://www.npmjs.com/package/indexbar-react)
+[![NPM downloads](https://img.shields.io/badge/downloads-16.2%20kB-brightgreen)](https://www.npmjs.com/package/indexbar-react)
 
-一个基于 React 的 IndexBar 组件；用于数据的序列号展示，常见应用为右侧索引栏、通讯录字母索引等
+一个基于 React 的 IndexBar 组件；用于数据的序列号展示，常见应用为右侧索引栏、通讯录字母索引等。[文档实例](https://sorryljt.github.io/indexbar-docs/components/index-bar)
 
 <img width="200" alt="image" src="https://github.com/sorryljt/IndexBar-react/assets/56460015/7b9bfd48-afba-4613-9c7a-74022659bb9a">
 
@@ -73,9 +73,6 @@ export default () => {
     </div>
   );
 };
-```
-
-```ts
 // mock.ts
 export default {
   A: [
@@ -164,9 +161,6 @@ export default {
     },
   ],
 };
-```
-
-```less
 // demo.less
 .content {
   height: calc(100vh - 100px);

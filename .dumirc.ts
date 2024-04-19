@@ -3,11 +3,13 @@ import px2vw from 'postcss-px-to-viewport';
 
 export default defineConfig({
   outputPath: 'docs-dist',
+  base: '/indexbar-docs/',
+  publicPath: '/indexbar-docs/',
   themeConfig: {
     name: 'IndexBar-React',
     // 配置高清方案，默认为 750 高清方案
     hd: {
-    //   rules: [...],
+      //   rules: [...],
     },
     // 配置 demo 预览器的设备宽度，默认为 375px
     deviceWidth: 375,

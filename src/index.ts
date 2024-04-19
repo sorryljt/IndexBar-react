@@ -1,16 +1,15 @@
-import { ReactNode } from 'react'
-import IndexbarCom from './IndexBar'
-import PanelCom from './IndexBar/panel'
+import { ReactNode } from 'react';
+import IndexbarCom from './IndexBar';
+import PanelCom from './IndexBar/panel';
 
-type IndexbarComProps = /*unresolved*/ any
+type IndexbarComProps = /*unresolved*/ any;
 
 type IndexbarComType = IndexbarComProps & {
-    Panel: ReactNode
-}
+  Panel: ReactNode;
+};
 
-const IndexBar = IndexbarCom as IndexbarComType
+const IndexBar = IndexbarCom as IndexbarComType;
 
-IndexBar.Panel = PanelCom
+IndexBar.Panel = PanelCom;
 
-export default IndexBar
-// export { default as Indexbar } from './IndexBar';
+export default IndexBar;

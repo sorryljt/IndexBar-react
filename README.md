@@ -1,7 +1,7 @@
 # IndexBar-React
 
 [![NPM version](https://img.shields.io/npm/v/indexbar-react.svg?style=flat)](https://npmjs.org/package/indexbar-react)
-[![NPM downloads](https://img.shields.io/badge/downloads-14.6%20kB-brightgreen)](https://www.npmjs.com/package/indexbar-react)
+[![NPM downloads](https://img.shields.io/badge/downloads-17.9%20kB-brightgreen)](https://www.npmjs.com/package/indexbar-react)
 
 一个基于 React 的 IndexBar 组件；用于数据的序列号展示，常见应用为右侧索引栏、通讯录字母索引等
 

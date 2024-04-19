@@ -5,6 +5,8 @@
 
 一个基于 React 的 IndexBar 组件；用于数据的序列号展示，常见应用为右侧索引栏、通讯录字母索引等
 
+<img width="200" alt="image" src="https://github.com/sorryljt/IndexBar-react/assets/56460015/7b9bfd48-afba-4613-9c7a-74022659bb9a">
+
 ## 开始使用
 
 ### 安装
@@ -43,6 +45,7 @@ yarn add indexbar-react -S
 ## 示例 Demo
 
 ```tsx
+// index.tsx
 import Indexbar from 'indexbar-react';
 import brandList from './mock';
 import './demo.less';
@@ -73,6 +76,7 @@ export default () => {
 ```
 
 ```ts
+// mock.ts
 export default {
   A: [
     {
@@ -163,6 +167,7 @@ export default {
 ```
 
 ```less
+// demo.less
 .content {
   height: calc(100vh - 100px);
 

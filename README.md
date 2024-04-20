@@ -3,6 +3,7 @@
 [![NPM version](https://img.shields.io/npm/v/indexbar-react.svg?style=flat)](https://npmjs.org/package/indexbar-react)
 [![NPM downloads](https://img.shields.io/badge/downloads%20-14.0%20kB-brightgreen?style=flat)](https://www.npmjs.com/package/indexbar-react)
 [![NPM downloads](https://img.shields.io/badge/package%20size%20-5.5%20kB-brightgreen?style=flat)](https://www.npmjs.com/package/indexbar-react)
+
 一个基于 React 的 IndexBar 组件；用于数据的序列号展示，常见应用为右侧索引栏、通讯录字母索引等。[文档实例](https://sorryljt.github.io/indexbar-docs/components/index-bar)
 
 <img width="200" alt="image" src="https://github.com/sorryljt/IndexBar-react/assets/56460015/7b9bfd48-afba-4613-9c7a-74022659bb9a">
